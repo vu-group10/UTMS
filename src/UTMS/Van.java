@@ -1,4 +1,3 @@
-package UTMS;
 
 //Van class implementing interfaces
 class Van extends Vehicle implements Serviceable, Trackable {
@@ -44,3 +43,4 @@ class Van extends Vehicle implements Serviceable, Trackable {
      System.out.println("AC: " + (hasAirConditioning ? "Yes" : "No"));
  }
 }
+

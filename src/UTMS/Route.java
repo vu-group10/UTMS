@@ -1,4 +1,3 @@
-package UTMS;
 
 //Route class
 class Route {
@@ -24,3 +23,4 @@ class Route {
  public String getEndPoint() { return endPoint; }
  public String[] getStops() { return stops; }
 }
+
